@@ -1,9 +1,16 @@
 ﻿// Задача 3: Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.
-int [] array = new Random().Next(1 , 10000);
+// 645
+int [] array = {6, 4, 5};
+Console.WriteLine($"{array[2]}");
 
-int index = 0;
-int n = array.Length;
-while (index < 2);
-    index++;
-Console.WriteLine($"{index}");
 
+// 78
+int [] array1 = {7, 8};
+Console.WriteLine("3-го числа нет");
+
+
+// 32769
+int [] array2 = {3, 2, 7, 6, 9};
+int n = array2.Length;
+if (n>2) Console.WriteLine($"{array2[2]}");
+else Console.WriteLine("3-го числа нет");
