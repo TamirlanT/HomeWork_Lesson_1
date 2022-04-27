@@ -1,7 +1,7 @@
 ﻿// Задача 4: Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным
 
 Console.WriteLine("Введи число от 1 до 7");
-string  number = Console.ReadLine();
+string? number =Console.ReadLine();
 
 if (number == "6") 
     Console.WriteLine("Выходной");
